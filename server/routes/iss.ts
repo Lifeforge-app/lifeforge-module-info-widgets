@@ -72,7 +72,7 @@ export const get = forge
 
     const gmst = gstime(date)
     const { lat, lng } = eciToLatLng(positionAndVelocity.position, gmst)
-    const altitude = eciToAltitude(positionAndVelocity.position)
+    const altitude = eciToAltitude(positionAndVelocity.position, gmst)
     const velocity = eciToSpeed(positionAndVelocity.velocity) * 3600
     const timestamp = Math.floor(now / 1000)
 

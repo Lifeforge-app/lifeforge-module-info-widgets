@@ -12,10 +12,13 @@ export function eciToLatLng(eci: EciVec3<number>, gmst: number) {
   }
 }
 
-export function eciToAltitude(eci: EciVec3<number>) {
-  const distance = Math.sqrt(eci.x ** 2 + eci.y ** 2 + eci.z ** 2)
+export function eciToAltitude(eci: EciVec3<number>, gmst: number) {
+  const geodetic = eciToGeodetic(
+    { x: eci.x, y: eci.y, z: eci.z } as Parameters<typeof eciToGeodetic>[0],
+    gmst
+  )
 
-  return distance - 6731
+  return geodetic.height
 }
 
 export function eciToSpeed(velocity: EciVec3<number>) {
