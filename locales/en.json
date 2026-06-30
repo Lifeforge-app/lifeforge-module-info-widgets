@@ -1,32 +1,16 @@
 {
-  "title": "Info Widgets",
+  "title": "Astronomy Widgets",
   "widgets": {
-    "overview": {
-      "title": "Overview",
-      "description": "A widget displaying your system and browser information.",
-      "labels": {
-        "browser": "Browser",
-        "os": "OS",
-        "screen": "Screen",
-        "language": "Language"
-      }
-    },
     "iss": {
       "title": "ISS Tracker",
       "description": "Track the International Space Station in real-time.",
       "labels": {
         "altitude": "Altitude",
-        "velocity": "Velocity",
-        "visibility": "Visibility",
-        "footprint": "Footprint"
+        "velocity": "Velocity"
       },
       "units": {
         "km": "km",
         "kmh": "km/h"
-      },
-      "visibility": {
-        "eclipsed": "Eclipsed",
-        "daylight": "Daylight"
       },
       "tooltip": {
         "rawPosition": "Raw Position",
@@ -38,6 +22,24 @@
           "description": "Missing Google Maps API key"
         }
       }
+    },
+    "apod": {
+      "title": "Astronomy Picture of the Day",
+      "description": "Discover the cosmos! Each day a different image or photograph of our fascinating universe.",
+      "videoNotSupported": "Video content cannot be displayed in this widget.",
+      "empty": {
+        "nasaKey": {
+          "title": "Missing API Key",
+          "description": "Missing NASA API key"
+        }
+      }
+    },
+    "epic": {
+      "title": "Earth from Space",
+      "description": "Daily full-disc image of Earth captured by NASA's EPIC camera on the DSCOVR satellite.",
+      "selectCoordinate": "Select View",
+      "selectThisView": "Select This View",
+      "mapKeyRequired": "Google Maps API key required to select coordinates."
     }
   }
 }

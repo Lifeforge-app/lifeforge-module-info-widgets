@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
+
 import { type WidgetConfig } from '@lifeforge/configs'
 import { useModuleTranslation } from '@lifeforge/localization'
 import { Scrollbar, Stack, Widget, WithQuery } from '@lifeforge/ui'

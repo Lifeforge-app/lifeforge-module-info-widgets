@@ -7,8 +7,9 @@ const { forgeAPI, ...manifest } = createForgeModuleClient({
   hidden: true,
   contract,
   widgets: [
-    () => import('@/widgets/Overview'),
-    () => import('@/widgets/ISS')
+    () => import('@/widgets/ISS'),
+    () => import('@/widgets/APOD'),
+    () => import('@/widgets/EPIC')
   ]
 })
 

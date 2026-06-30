@@ -1,13 +1,13 @@
 {
-  "name": "@lifeforge/lifeforge--info-widgets",
-  "displayName": "Info Widgets",
+  "name": "@lifeforge/lifeforge--astronomy-widgets",
+  "displayName": "Astronomy Widgets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lifeforge-app/lifeforge-module-infoWidgets.git"
+    "url": "https://github.com/lifeforge-app/lifeforge-module-astronomyWidgets.git"
   },
   "version": "0.0.1",
   "author": "Melvin Chia <melvinchia623600@gmail.com>",
-  "description": "A collection of information display widgets",
+  "description": "A collection of astronomy and space-related widgets",
   "scripts": {
     "types": "cd client && bun tsc",
     "build:client": "cd client && bun run vite build",
@@ -23,11 +23,15 @@
     "vite": "^7.1.9"
   },
   "lifeforge": {
-    "icon": "tabler:info-circle",
+    "icon": "tabler:telescope",
     "category": "Utilities",
     "APIKeyAccess": {
       "gcloud": {
         "usage": "To display the ISS location on a map",
+        "required": false
+      },
+      "nasa": {
+        "usage": "To fetch the Astronomy Picture of the Day",
         "required": false
       }
     }

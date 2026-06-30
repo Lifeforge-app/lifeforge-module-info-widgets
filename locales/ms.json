@@ -1,32 +1,16 @@
 {
-  "title": "Widget Maklumat",
+  "title": "Widget Astronomi",
   "widgets": {
-    "overview": {
-      "title": "Gambaran Keseluruhan",
-      "description": "Widget yang memaparkan maklumat sistem dan pelayar anda.",
-      "labels": {
-        "browser": "Pelayar",
-        "os": "OS",
-        "screen": "Skrin",
-        "language": "Bahasa"
-      }
-    },
     "iss": {
       "title": "Penjejak ISS",
       "description": "Jejaki Stesen Angkasa Antarabangsa dalam masa nyata.",
       "labels": {
         "altitude": "Ketinggian",
-        "velocity": "Halaju",
-        "visibility": "Keterlihatan",
-        "footprint": "Jejak"
+        "velocity": "Halaju"
       },
       "units": {
         "km": "km",
         "kmh": "km/j"
-      },
-      "visibility": {
-        "eclipsed": "Gerhana",
-        "daylight": "Cahaya Siang"
       },
       "tooltip": {
         "rawPosition": "Kedudukan Mentah",
@@ -38,6 +22,24 @@
           "description": "Kunci API Google Maps tiada"
         }
       }
+    },
+    "apod": {
+      "title": "Gambar Astronomi Hari Ini",
+      "description": "Temui kosmos! Setiap hari imej atau gambar yang berbeza tentang alam semesta kita yang menakjubkan.",
+      "videoNotSupported": "Kandungan video tidak boleh dipaparkan dalam widget ini.",
+      "empty": {
+        "nasaKey": {
+          "title": "Kunci API Tiada",
+          "description": "Kunci API NASA tiada"
+        }
+      }
+    },
+    "epic": {
+      "title": "Bumi dari Angkasa",
+      "description": "Imej cakera penuh harian Bumi yang diambil oleh kamera EPIC NASA pada satelit DSCOVR.",
+      "selectCoordinate": "Pilih Pandangan",
+      "selectThisView": "Pilih Pandangan Ini",
+      "mapKeyRequired": "Kunci API Google Maps diperlukan untuk memilih koordinat."
     }
   }
 }

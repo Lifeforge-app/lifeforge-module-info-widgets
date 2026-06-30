@@ -1,32 +1,16 @@
 {
-  "title": "資訊小工具",
+  "title": "天文小工具",
   "widgets": {
-    "overview": {
-      "title": "系統概覽",
-      "description": "顯示系統和瀏覽器資訊的小工具。",
-      "labels": {
-        "browser": "瀏覽器",
-        "os": "作業系統",
-        "screen": "螢幕",
-        "language": "語言"
-      }
-    },
     "iss": {
       "title": "ISS 追蹤器",
       "description": "即時追蹤國際太空站的位置。",
       "labels": {
         "altitude": "高度",
-        "velocity": "速度",
-        "visibility": "可見性",
-        "footprint": "覆蓋範圍"
+        "velocity": "速度"
       },
       "units": {
         "km": "公里",
         "kmh": "公里/小時"
-      },
-      "visibility": {
-        "eclipsed": "日食中",
-        "daylight": "日光"
       },
       "tooltip": {
         "rawPosition": "原始座標",
@@ -38,6 +22,24 @@
           "description": "缺少 Google Maps API 金鑰"
         }
       }
+    },
+    "apod": {
+      "title": "每日天文圖片",
+      "description": "探索宇宙！每天一張關於我們迷人宇宙的不同圖片或照片。",
+      "videoNotSupported": "此小工具無法顯示影片內容。",
+      "empty": {
+        "nasaKey": {
+          "title": "缺少 API 金鑰",
+          "description": "缺少 NASA API 金鑰"
+        }
+      }
+    },
+    "epic": {
+      "title": "太空中的地球",
+      "description": "NASA EPIC 相機在 DSCOVR 衛星上拍攝的每日全盤地球圖像。",
+      "selectCoordinate": "選擇視角",
+      "selectThisView": "選擇此視角",
+      "mapKeyRequired": "需要 Google Maps API 金鑰才能選擇座標。"
     }
   }
 }

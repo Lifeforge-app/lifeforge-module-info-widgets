@@ -2,7 +2,7 @@ import { gstime, propagate } from 'satellite.js'
 import z from 'zod'
 
 import forge from '../forge'
-import { eciToLatLng, eciToAltitude, eciToSpeed } from '../utils/eci'
+import { eciToAltitude, eciToLatLng, eciToSpeed } from '../utils/eci'
 import { getTLESatrec } from '../utils/satrec'
 import { getSubsolarPoint, getTerminator } from '../utils/subsolarPoint'
 
@@ -86,7 +86,7 @@ export const get = forge
 
     const positionsPoints: Array<{ lat: number; lng: number }> = []
 
-    for (let i = -30; i <= 30; i++) {
+    for (let i = -50; i <= 50; i++) {
       const pointDate = new Date(now + i * 90000)
       const pv = propagate(satrec, pointDate)
 
