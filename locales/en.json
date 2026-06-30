@@ -1,0 +1,43 @@
+{
+  "title": "Info Widgets",
+  "widgets": {
+    "overview": {
+      "title": "Overview",
+      "description": "A widget displaying your system and browser information.",
+      "labels": {
+        "browser": "Browser",
+        "os": "OS",
+        "screen": "Screen",
+        "language": "Language"
+      }
+    },
+    "iss": {
+      "title": "ISS Tracker",
+      "description": "Track the International Space Station in real-time.",
+      "labels": {
+        "altitude": "Altitude",
+        "velocity": "Velocity",
+        "visibility": "Visibility",
+        "footprint": "Footprint"
+      },
+      "units": {
+        "km": "km",
+        "kmh": "km/h"
+      },
+      "visibility": {
+        "eclipsed": "Eclipsed",
+        "daylight": "Daylight"
+      },
+      "tooltip": {
+        "rawPosition": "Raw Position",
+        "lastFetched": "Last Fetched"
+      },
+      "empty": {
+        "mapKey": {
+          "title": "Missing API Key",
+          "description": "Missing Google Maps API key"
+        }
+      }
+    }
+  }
+}

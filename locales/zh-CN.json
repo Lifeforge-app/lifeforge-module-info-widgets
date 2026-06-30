@@ -1,0 +1,43 @@
+{
+  "title": "信息小部件",
+  "widgets": {
+    "overview": {
+      "title": "系统概览",
+      "description": "显示系统和浏览器信息的小部件。",
+      "labels": {
+        "browser": "浏览器",
+        "os": "操作系统",
+        "screen": "屏幕",
+        "language": "语言"
+      }
+    },
+    "iss": {
+      "title": "ISS 追踪器",
+      "description": "实时追踪国际空间站的位置。",
+      "labels": {
+        "altitude": "高度",
+        "velocity": "速度",
+        "visibility": "可见性",
+        "footprint": "覆盖范围"
+      },
+      "units": {
+        "km": "公里",
+        "kmh": "公里/小时"
+      },
+      "visibility": {
+        "eclipsed": "日食中",
+        "daylight": "日光"
+      },
+      "tooltip": {
+        "rawPosition": "原始坐标",
+        "lastFetched": "最后获取时间"
+      },
+      "empty": {
+        "mapKey": {
+          "title": "缺少 API 密钥",
+          "description": "缺少 Google Maps API 密钥"
+        }
+      }
+    }
+  }
+}

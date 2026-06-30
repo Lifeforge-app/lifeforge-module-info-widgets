@@ -1,0 +1,43 @@
+{
+  "title": "資訊小工具",
+  "widgets": {
+    "overview": {
+      "title": "系統概覽",
+      "description": "顯示系統和瀏覽器資訊的小工具。",
+      "labels": {
+        "browser": "瀏覽器",
+        "os": "作業系統",
+        "screen": "螢幕",
+        "language": "語言"
+      }
+    },
+    "iss": {
+      "title": "ISS 追蹤器",
+      "description": "即時追蹤國際太空站的位置。",
+      "labels": {
+        "altitude": "高度",
+        "velocity": "速度",
+        "visibility": "可見性",
+        "footprint": "覆蓋範圍"
+      },
+      "units": {
+        "km": "公里",
+        "kmh": "公里/小時"
+      },
+      "visibility": {
+        "eclipsed": "日食中",
+        "daylight": "日光"
+      },
+      "tooltip": {
+        "rawPosition": "原始座標",
+        "lastFetched": "最後獲取時間"
+      },
+      "empty": {
+        "mapKey": {
+          "title": "缺少 API 金鑰",
+          "description": "缺少 Google Maps API 金鑰"
+        }
+      }
+    }
+  }
+}

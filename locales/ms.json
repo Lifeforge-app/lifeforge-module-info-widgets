@@ -1,0 +1,43 @@
+{
+  "title": "Widget Maklumat",
+  "widgets": {
+    "overview": {
+      "title": "Gambaran Keseluruhan",
+      "description": "Widget yang memaparkan maklumat sistem dan pelayar anda.",
+      "labels": {
+        "browser": "Pelayar",
+        "os": "OS",
+        "screen": "Skrin",
+        "language": "Bahasa"
+      }
+    },
+    "iss": {
+      "title": "Penjejak ISS",
+      "description": "Jejaki Stesen Angkasa Antarabangsa dalam masa nyata.",
+      "labels": {
+        "altitude": "Ketinggian",
+        "velocity": "Halaju",
+        "visibility": "Keterlihatan",
+        "footprint": "Jejak"
+      },
+      "units": {
+        "km": "km",
+        "kmh": "km/j"
+      },
+      "visibility": {
+        "eclipsed": "Gerhana",
+        "daylight": "Cahaya Siang"
+      },
+      "tooltip": {
+        "rawPosition": "Kedudukan Mentah",
+        "lastFetched": "Kali Terakhir Diambil"
+      },
+      "empty": {
+        "mapKey": {
+          "title": "Kunci API Tiada",
+          "description": "Kunci API Google Maps tiada"
+        }
+      }
+    }
+  }
+}
